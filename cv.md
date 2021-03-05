@@ -3,7 +3,7 @@
 ## Location
 Belarus(JIVE), Gomel
 ## Contacts
-Telegram: @c0sm0naut; 
+Telegram: https://t.me/c0sm0naut; 
 
 Email: petkevicr911@gmail.com
 ## About me
