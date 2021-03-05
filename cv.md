@@ -17,7 +17,19 @@ I study at the university and have basic knowledge and skills in programming lan
 JavaScript, C/C++, designed websites using HTML and CSS.
 
 ## Sample code
-
+```javascript
+function capital(capitals){
+  var returnArr = [];
+  for (var i = 0; i < capitals.length; i++) {
+    var str = 'The capital of '
+    + (capitals[i].state || capitals[i].country)
+    + ' is ' + capitals[i].capital;
+    returnArr.push(str);
+  }
+  return returnArr;
+}
+```
+ 
 ## Education
 Now I am studying at the Belarusian State University of Transport without the opportunity to work. 
 
