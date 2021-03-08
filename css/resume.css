@@ -1,0 +1,85 @@
+body { 
+    background-image: url(../img/fon.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+    /* padding: 20px; */
+    margin: 0;
+    font-family: Georgia;
+    font-size: 14px; 
+    color: rgb(235, 235, 235); 
+}
+
+.photo {
+    align-items: center;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.ava, .main, .skills, .educaiton, main, .sample {
+    /* position: static; */
+    display: block;
+    padding: 1.5%;
+    border-radius: 20%;
+    background-color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.6); 
+    font-size: 22px; 
+    margin: 2.5%;
+}
+
+.head {
+    font-size: 25px;
+   
+    
+    text-align: center;
+    
+}
+
+.ava {
+    width: 300px;
+    height: 100%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+main, .educaiton {
+    width: 800px;
+    text-align: right;
+    margin-left: 35%;
+}
+
+.skills, .sample {
+    width: 700px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.spisok {
+    justify-content: flex-end;
+    display: flex;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.footer{
+    background-color: black;
+    padding: 2%;
+ }
+
+ .link {
+    width: 50px;
+    height: 50px;
+ }
+
+ .code{
+     color: greenyellow;
+ }
+
+ .right{
+     text-align: right;
+ }
