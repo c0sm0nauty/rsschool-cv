@@ -1,0 +1,66 @@
+body { 
+    background-image: url(../img/fon.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+    
+    padding: 20px;
+    font-family: Georgia;
+    font-size: 14px; 
+    color: rgb(235, 235, 235); 
+}
+
+.photo {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.ava, .main, .skills, .educaiton {
+    position: absolute;
+    padding: 1.5%;
+    border-radius: 20%;
+    background-color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.6); 
+    font-family: Georgia;
+    color: rgb(255, 255, 255);
+    font-size: 25px; 
+}
+
+.head {
+    font-size: 25px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.ava {
+    width: 300px;
+    height: 375px;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.main {
+    text-align: right;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.skills {
+    text-align: left;
+    margin-top: 40%;
+    margin-left: 5%;
+}
+
+.educaiton {
+    text-align: right;
+    margin-top: 66.5%;
+    margin-left: 17%;
+}
