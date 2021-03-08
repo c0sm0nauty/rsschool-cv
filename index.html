@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "">
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
 	<title>Resume</title>
@@ -8,28 +8,40 @@
 </head>
 
 <body>
-	<div class="head">
-		<h1>My Resume</h1>
-	</div>
-	<div class="ava">
-		<img class="photo" src="img/i.jpg">
-		<p>I'm <b>Petkevich Roman</b></p>
-	</div>
-	<div class="main">
+	<header>
+		<div class="head">
+			<h1>My Resume</h1>
+		</div>
+		<div class="ava">
+			<figure>
+				<img class="photo" src="img/i.jpg" alt="avatarka">
+				<p>I'm <b>Petkevich Roman</b></p>
+			</figure>
+		</div>
+	</header>
+	<main>
+
 		<h2>About me</h2>
 		<p>My purpose is to start career in IT-sphere.</p>
 		<p>My strengths include:</p>
-		<li>dedication</li>
-		<li>companionship</li>
-		<li>multitasking</li>
+		<div class="spisok">
+			<ul>
+				<li>dedication</li>
+				<li>companionship</li>
+				<li>multitasking</li>
+			</ul>
+		</div>
 		<p>I am able to quickly learn new things to get the necessary work experience.</p>
-	</div>
+		</div>
+	</main>
 	<div class="skills">
 		<h2>My skills</h2>
-		<p>I study at the university and have basic knowledge and skills in programming languages such as:</p> 
-		<li>Java</li>
-		<li>JavaScript</li>
-		<li>C/C++</li>
+		<p>I study at the university and have basic knowledge and skills in programming languages such as:</p>
+		<ul>
+			<li>Java</li>
+			<li>JavaScript</li>
+			<li>C/C++</li>
+		</ul>
 		<p>Practiced website development using HTML and CSS.</p>
 	</div>
 	<div class="educaiton">
@@ -38,6 +50,30 @@
 		<p>However, I am taking courses on "JavaScript / Front-end".</p>
 		<p>The level of English corresponds to A2 - elementary.</p>
 	</div>
+	<div class="sample">
+		<h2>Sample code</h2>
+		<pre class="code">
+function capital(capitals){
+    var returnArr = [];
+    for (var i = 0; i < capitals.length; i++) {
+        var str = 'The capital of '
+        + (capitals[i].state || capitals[i].country)
+        + ' is ' + capitals[i].capital;
+        returnArr.push(str);
+    }
+    return returnArr;
+}
+		</pre>
+	</div>
+	<footer class="footer">
+		<h3>You can contact me by:</h3>
+		<nav class="nav">
+			<a href="sample.html"><img src="img/tel.png" class="link" alt="Пример"></a>
+			<a href="sample.html"><img src="img/gmail.png" class="link" alt="Пример"></a>
+		</nav>
+		<p class="right">Created by Petkevich Roman</p>
+		<p class="right">Gomel, Jive Belarus</p>
+	</footer>
 </body>
 
 </html>
