@@ -24,7 +24,7 @@
 	  }
 	  return arr;
 	}
-	```
+```
 6. I do not have work experience.
 7. **Higher education.** Studied the basics of different programming languages ​​during my studies.
 8. English level **A2** - Elementary.
