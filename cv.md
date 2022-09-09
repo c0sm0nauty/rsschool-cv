@@ -1,8 +1,8 @@
-#MY CV
+# MY CV
 1. **Roman Petkevich.**
-2. Telegram: @c0sm0naut; Gmail: petkevicr911@gmail.com
-3. My main goal is to enter IT. I'm attentive, decent and persistent. I made up websites according to layouts for myself. At now I am working on myself in order to work in IT and receive both pleasure and salary for the tasks solved.
-4. HTML, CSS, JavaScript, Git. I use Visual Studio Code for my projects.
+2. **Telegram:** @c0sm0naut; **Gmail:** petkevicr911@gmail.com
+3. My main goal is to enter IT. **I'm attentive, decent and persistent.** I made up websites according to layouts for myself. At now I am working on myself in order to work in IT and receive both pleasure and salary for the tasks solved.
+4. **HTML, CSS, JavaScript, Git**. I use Visual Studio Code for my projects.
 5. Simple code example from CodeWars:
 ```javascript
 	function fizzbuzz(n)
@@ -26,5 +26,5 @@
 	}
 	```
 6. I do not have work experience.
-7. Higher education. studied the basics of different programming languages ​​during my studies.
-8. English level A2 - Elementary.
+7. **Higher education.** Studied the basics of different programming languages ​​during my studies.
+8. English level **A2** - Elementary.
